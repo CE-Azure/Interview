@@ -9,5 +9,4 @@ module "resource_group" {
   deployable_version = var.deployable_version
   environment        = var.environment
   identifier         = local.identifier
-  location           = var.location
 }
