@@ -10,5 +10,4 @@ module "resource_group" {
   environment        = var.environment
   identifier         = local.identifier
   location           = var.location
-  project_code       = local.project_code
 }
